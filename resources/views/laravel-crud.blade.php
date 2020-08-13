@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="container mt-5 d-flex justify-content-center">
-    <a class="btn btn-primary" href="{{ route('blogs.index') }}">
+    <a class="btn btn-info" href="{{ route('blogs.index') }}">
         Blogs - Laravel CRUD
     </a>
 </div>

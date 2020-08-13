@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
-            <h2>Create New Blog</h2>
+            <h2>Create a new blog</h2>
         </div>
         <div class="pull-right">
             <a class="btn btn-primary mb-3" href="{{ route('blogs.index') }}"> Back</a>

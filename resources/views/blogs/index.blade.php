@@ -3,11 +3,11 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2>Check all Blogs</h2>
+            <div class="btn pull-left">
+                <h2>List of Blogs</h2>
             </div>
-            <div class="pull-right">
-                <a class="btn btn-success mb-3" href="{{ route('blogs.create') }}"> Create new blogs</a>
+            <div class="btn pull-right">
+                <a class="btn btn-sm btn-success mb-3" href="{{ route('blogs.create') }}"> Create a new blog</a>
             </div>
         </div>
     </div>

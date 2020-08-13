@@ -9,10 +9,10 @@
   <h1>Laravel CRUD </h1>
   <p>By: ajinkyacodes</p>
   <div>
-    <a class="btn btn-primary" href="{{ '/' }}">
+    <a class="btn btn-secondary" href="{{ '/' }}">
       Home
     </a>
-    <a class="btn btn-primary" href="" onclick="location.reload()">
+    <a class="btn btn-secondary" href="" onclick="location.reload()">
       Refresh
     </a>
   </div> 
