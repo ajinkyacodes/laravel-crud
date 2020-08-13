@@ -7,7 +7,15 @@
 <body>
 <div class="jumbotron text-center">
   <h1>Laravel CRUD </h1>
-  <p>By: ajinkyacodes</p> 
+  <p>By: ajinkyacodes</p>
+  <div>
+    <a class="btn btn-primary" href="{{ '/' }}">
+      Home
+    </a>
+    <a class="btn btn-primary" href="" onclick="location.reload()">
+      Refresh
+    </a>
+  </div> 
 </div>
   
 <div class="container mb-5">
