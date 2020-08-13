@@ -25,7 +25,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        return view('blogs.create');
     }
 
     /**
@@ -36,7 +36,15 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required',
+            'description' => 'required',
+        ]);
+  
+        Blog::create($request->all());
+   
+        return redirect()->route('blogs.index')
+                        ->with('success','Blog created successfully.');
     }
 
     /**
