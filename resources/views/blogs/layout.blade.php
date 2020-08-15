@@ -2,27 +2,26 @@
 <html>
 <head>
 <title>Laravel CRUD</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<div class="jumbotron text-center">
-  <h1>Laravel CRUD </h1>
-  <p>By: ajinkyacodes</p>
-  <div>
-    <a class="btn btn-secondary" href="{{ '/' }}">
-      Home
-    </a>
-    <a class="btn btn-secondary" href="" onclick="location.reload()">
-      Refresh
-    </a>
-  </div> 
-</div>
-  
-<div class="container mb-5">
-    @yield('content')
-</div>
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
+  <header>
+    <div class="wrapper">
+        <h1>Laravel CRUD (Basic)</h1>
+    </div>
+</header>
+<main>
+    <div class="wrapper">
+        <div class="container">
+            @yield('content')
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="wrapper">
+        <p>&copy; ajinkyacodes</p>            
+    </div>
+</footer>
 </body>
 </html>

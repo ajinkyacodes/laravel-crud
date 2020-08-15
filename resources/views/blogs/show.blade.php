@@ -1,13 +1,15 @@
 @extends('blogs.layout')
 @section('content')
     <div class="row">
+        <div class="col-lg-12 margin-tb">            
+            <div>
+                <a class="btn btn-sm btn-secondary mb-3" href="{{ route('blogs.index') }}"> Back</a>
+            </div>
+        </div>
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2> Show blog</h2>
-            </div>
-            <div class="pull-right">
-                <a class="btn btn-primary mb-3" href="{{ route('blogs.index') }}"> Back</a>
-            </div>
+            <div>
+                <h2 class="mb-4">Show Blog</h2>
+            </div>            
         </div>
     </div>
    
