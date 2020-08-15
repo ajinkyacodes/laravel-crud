@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('laravel-crud');
+    return redirect('/blogs');
 });
 
 Route::resource('blogs', 'BlogController');
