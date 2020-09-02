@@ -29,7 +29,7 @@
         <tr>
             <td class="text-center">{{ ++$i }}</td>
             <td>{{ $blog->title }}</td>
-            <td>{{ $blog->description }}</td>
+            <td>{!!$blog->description !!}</td>
             <td class="text-center">
                 <form action="{{ route('blogs.destroy',$blog->id) }}" method="POST">
    
