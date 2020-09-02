@@ -7,6 +7,8 @@ This project is built using PHP Laravel Framework. It is a basic CRUD App. Users
 - Update Blog
 - Delete Blog
 
+## Laravel Concepts
+
 I've used different concepts for creating different functionalities such as:
 
 - MVC Architecture
